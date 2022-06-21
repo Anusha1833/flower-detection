@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home {% endblock %}
+{% block 'home_block' %}active{% endblock %}
+
+
+
+{% block contents %}
+
+<section>
+    <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#main_slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main_slider" data-slide-to="1"></li>
+            <li data-target="#main_slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row marginii">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="carousel-caption ">
+                                <h1>Analysis of Performance of Machine Learning Algorithms in <strong class="color">Detection
+                                    of Flowers </strong></h1>
+                                <!--                              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</p>-->
+                                <!--                              <a class="btn btn-lg btn-primary" href="#" role="button">About</a>-->
+                                <!--                              <a class="btn btn-lg btn-primary" href="#" role="button">Contact US</a>-->
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="img-box">
+                                <figure><img src="{% static 'images/gyufyufyu.png' %}" alt="img"/></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- plant -->
+<div id="plant" class="plants">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 ">
+                <div class="titlepage">
+                    <h2>Our Wonderful plants</h2>
+                    <span>looking at its layout. The point of using Lorem Ipsumletters, as opposed to usingl</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant1.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant2.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant3.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant1.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant2.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                <div class="plants-box">
+                    <figure><img src="{% static 'images/plant3.jpg' %}" alt="img"/></figure>
+                    <h3> Floral Vibrant</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsumletters, as opposed to using</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
